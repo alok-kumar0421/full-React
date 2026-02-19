@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+  background-color: rgb(247, 240, 240);
+}
+.parent{
+  height:100vh;
+  width:100%;
+  background-color: rgb(3, 23, 40);
+  padding:20px;
+  display:flex;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.card{
+  height:300px;
+  width:250px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.top img{
+  height:30px;
+  width:35px;
+  border-radius: 50%;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  padding:4px 8px;
+  border-radius: 10px;
+  gap:5px;
+  cursor: pointer;
+  filter: blur(0.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bottom{
+  display:flex;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.center h3{
+  font-size: 17px;
+  font-weight: 400;
+}
+.center h3 span{
+  font-size: 8px;
+  font-weight: 400;
+  color:#8b8b8b8b;
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 200;
+}
+.center .tag{
+  display:flex;
+  align-items: center;
+}
+
+.center .tag h6{
+  background-color: #e3e2e2;
+  margin:5px;
+  border-radius: 5px;
+  padding:2px;
+  font-weight: 100;
+}
+.bottom{
+  border-top:1px solid #c5c5c5;
+   padding-top: 30px;
+}
+.bottom .details h3{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+.bottom .details p{
+  font-size: 10px;
+  font-weight: 100;
+  color:#8b8b8b8b;
+}
+.bottom button{
+  border-radius: 5px;
+  border: 1px solid #8b8b8b8b;
+  padding:5px;
+  background-color:black ;
+  color:aliceblue
+}
