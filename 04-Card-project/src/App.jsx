@@ -1,11 +1,9 @@
-import React from 'react'
-import {Bookmark} from 'lucide-react'
 import Card from "./components/Card"
 export const App = () => {
   return (
     <>
-    <div className='full'>
-    <div className="parent">
+    <div className='full'> 
+    <div className="parent"> 
     <Card link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WU0Emt19dyXiCPIuhVtxIFbqx13mkj54hA&s" brand="Amazon" price="$120/hr"/>
     <Card link="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/500px-Google_%22G%22_logo.svg.png" brand="Google" price="$150-120k/hr"/>
     <Card link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zdLpQ1XogOHnpR9MuW1MD9oXYxuPS5FCgQ&s" brand="Triddle" price="$85/hr"/>
@@ -17,5 +15,6 @@ export const App = () => {
     </>
   )
 }
-
 export default App
+
+/// work that is to convert it in to object array and pass one by one to Card.jsx
