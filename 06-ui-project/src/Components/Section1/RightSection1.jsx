@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightSection1 = () => {
   return (
-    <div className='w-2/3 px-20 flex items-center justify-between gap-8'>
+    <div className='w-2/3 px-20 flex items-center justify-between gap-2'>
       
       <div className='w-64 h-100 overflow-hidden rounded-xl'>
         <img 
