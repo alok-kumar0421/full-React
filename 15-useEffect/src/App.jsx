@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(function(){
     console.log("pritting.........")
-  },[num2])  // if num2 will change then it will change other wise not
+  },[num2])  // if num2 will change then it will change other wise not depedencies dependent on num2
   return (
     <div>
       <h2>{num}</h2>
